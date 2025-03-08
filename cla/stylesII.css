@@ -1,0 +1,48 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    background-image: url('images/second_cute_background.jpg'); /* Substitua pelo caminho da sua imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333; /* Cor da fonte para o corpo */
+}
+
+.leaf-container {
+    background: transparent; /* Fundo branco semitransparente */
+    padding: 20px;
+    border-radius: 15px; /* Bordas suaves */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px; /* Largura máxima */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinhar ao início para posicionar a imagem à esquerda */
+    backdrop-filter: blur(10px); /* Efeito de desfoque no fundo */
+    position: relative;
+}
+
+.profile-image {
+    width: 100px; /* Tamanho da imagem de perfil */
+    height: 100px;
+    border-radius: 50%; /* Borda redonda */
+    object-fit: cover;
+    position: absolute;
+    top: 10px; /* Ajustar a posição vertical */
+    left: 10px; /* Ajustar a posição horizontal */
+    border: 3px solid palevioletred; /* Borda branca */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+p {
+    font-size: 18px;
+    color: #333; /* Cor do texto */
+    margin-top: 120px; /* Espaçamento para evitar sobreposição com a imagem */
+    width: 100%;
+    text-align: center; /* Centralizar o texto */
+}
